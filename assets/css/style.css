@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header .container{
+    height: 59px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 59px;
+    margin-top: 59px;
+}
+
+.btn{
+    font-family: "Nunito Sans", serif;
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+
+nav a:not(:last-child){
+    margin-right: 15px;
+}
+
+.active{
+    color: orange;
+}
+
+.auth{
+    border: 1px solid black;
+    padding: 10px 20px;
+    line-height: normal;
+    height: max-content;
+    margin-top: calc(99px / 12);
+}
+
+.logo{
+    font-size: 24px;
+    font-family: "Lemon Milk Regular", serif;
+}
+
+.welcome_block{
+    margin-top: 25px;
+}
+
+.welcome_block .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+.w_img img{
+    width: 530px;
+}
+
+.w_text_block h1{
+    margin-top: 100px;
+    font-family: "Lemon Milk Regular", serif;
+    font-size: 62px;
+}
+
+.w_text_block span{
+    font-family: "Nunito Sans", serif;
+    font-size: 24px;
+    padding: 10px 10px;
+    border-left: 1px solid black;
+    display: block;
+}
+
+.w_btn{
+    padding: 10px 25px;
+    border: 1px solid black;
+    margin: 15px 15px 0 0;
+    display: block;
+    width: max-content;
+}
+
+.w_links{
+    display: flex;
+}
+
+.w_active{
+    border: 1px solid orange;
+    background: orange;
+    color: #FFFFFFFF;
+}
